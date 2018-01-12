@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+       <ImageView
+           android:src="@drawable/app_dev"
+           android:layout_width="match_parent"
+           android:layout_height="350dp"
+           android:scaleType="centerCrop"/>
+
+       <TextView
+           android:text="Udacity"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="35sp"
+           android:paddingTop="20dp"
+           android:paddingLeft="10dp"/>
+
+       <TextView
+           android:text="2465 Latham St"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="22sp"
+           android:paddingTop="10dp"
+           android:paddingLeft="10dp"/>
+
+       <TextView
+           android:text="Mountain View, CA 94043"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="22sp"
+           android:paddingTop="5dp"
+           android:paddingLeft="10dp"/>
+
+       <TextView
+           android:text="650-555-5555"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="22sp"
+           android:paddingTop="5dp"
+           android:paddingLeft="10dp"/>
+
+
+
+</LinearLayout>
