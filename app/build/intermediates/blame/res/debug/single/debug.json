@@ -12,6 +12,10 @@
         "source": "/Users/justingreen/Developer/udacity-android/HelloAndroid/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
     },
     {
+        "merged": "/Users/justingreen/Developer/udacity-android/HelloAndroid/app/build/intermediates/res/merged/debug/drawable_udacity_logo.png.flat",
+        "source": "/Users/justingreen/Developer/udacity-android/HelloAndroid/app/src/main/res/drawable/udacity_logo.png"
+    },
+    {
         "merged": "/Users/justingreen/Developer/udacity-android/HelloAndroid/app/build/intermediates/res/merged/debug/drawable-v21_abc_edit_text_material.xml.flat",
         "source": "/Users/justingreen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/8026280143e4a80e7d1514d562537c32/res/drawable-v21/abc_edit_text_material.xml"
     },
@@ -902,10 +906,6 @@
     {
         "merged": "/Users/justingreen/Developer/udacity-android/HelloAndroid/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "/Users/justingreen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/8026280143e4a80e7d1514d562537c32/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
-        "merged": "/Users/justingreen/Developer/udacity-android/HelloAndroid/app/build/intermediates/res/merged/debug/drawable_dev_laptop.jpg.flat",
-        "source": "/Users/justingreen/Developer/udacity-android/HelloAndroid/app/src/main/res/drawable/dev_laptop.jpg"
     },
     {
         "merged": "/Users/justingreen/Developer/udacity-android/HelloAndroid/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",

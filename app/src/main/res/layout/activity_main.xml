@@ -2,46 +2,62 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:background="@android:color/white"
+    android:orientation="vertical">
 
-       <ImageView
-           android:src="@drawable/app_dev"
-           android:layout_width="match_parent"
-           android:layout_height="350dp"
-           android:scaleType="centerCrop"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/app_dev" />
 
-       <TextView
-           android:text="Udacity"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:textSize="35sp"
-           android:paddingTop="20dp"
-           android:paddingLeft="10dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/udacity_logo"
+        android:layout_marginBottom="20dp"/>
 
-       <TextView
-           android:text="2465 Latham St"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:textSize="22sp"
-           android:paddingTop="10dp"
-           android:paddingLeft="10dp"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="#20B8E7"
+        android:text="@string/start_learning_now"
+        android:textSize="14sp"
+        android:textColor="@color/transparent_white"
+        android:textStyle="bold"
+        android:layout_marginLeft="60dp"/>
 
-       <TextView
-           android:text="Mountain View, CA 94043"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:textSize="22sp"
-           android:paddingTop="5dp"
-           android:paddingLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp"
+        android:text="@string/udacity_street_name"
+        android:textSize="18sp"
+        android:layout_marginStart="100dp" />
 
-       <TextView
-           android:text="650-555-5555"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:textSize="22sp"
-           android:paddingTop="5dp"
-           android:paddingLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="100dp"
+        android:text="@string/udacity_city_state_zip"
+        android:textSize="18sp"
+        android:layout_marginStart="100dp" />
 
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="100dp"
+        android:text="@string/udacity_tel_num"
+        android:textSize="18sp"
+        android:layout_marginStart="100dp" />
 
 </LinearLayout>
