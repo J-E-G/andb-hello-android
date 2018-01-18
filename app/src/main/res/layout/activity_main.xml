@@ -15,59 +15,59 @@
             android:stretchColumns="1">
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="325dp"
+                android:layout_height="@dimen/main_img_height"
                 android:scaleType="centerCrop"
                 android:src="@drawable/app_dev" />
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="75dp"
-                android:padding="10dp"
-                android:layout_marginTop="20dp"
+                android:layout_height="@dimen/secondary_img_height"
+                android:padding="@dimen/sec_img_padding"
+                android:layout_marginTop="@dimen/second_img_margin"
                 android:src="@drawable/udacity_logo"
-                android:layout_marginBottom="20dp"/>
+                android:layout_marginBottom="@dimen/second_img_btm_margin"/>
 
             <Button
-                android:layout_width="20dp"
+                android:layout_width="@dimen/btn_width"
                 android:layout_height="wrap_content"
-                android:background="#20B8E7"
+                android:background="@color/btn_background_blue"
                 android:text="@string/start_learning_now"
-                android:textSize="14sp"
+                android:textSize="@dimen/btn_text_size"
                 android:textColor="@color/transparent_white"
                 android:textStyle="bold"
-                android:layout_marginRight="60dp"
-                android:layout_marginLeft="60dp"/>
+                android:layout_marginRight="@dimen/btn_margin_right"
+                android:layout_marginLeft="@dimen/btn_margin_left"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
-                android:paddingTop="10dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginLeft="100dp"
+                android:paddingLeft="@dimen/ten_dp_padding"
+                android:paddingTop="@dimen/ten_dp_padding"
+                android:layout_marginTop="@dimen/text_top_margin"
+                android:layout_marginLeft="@dimen/margin_start"
                 android:text="@string/udacity_street_name"
-                android:textSize="18sp"
-                android:layout_marginStart="100dp" />
+                android:textSize="@dimen/text_size"
+                android:layout_marginStart="@dimen/margin_start" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
-                android:paddingTop="5dp"
-                android:layout_marginLeft="100dp"
+                android:paddingLeft="@dimen/ten_dp_padding"
+                android:paddingTop="@dimen/padding_top_text_view"
+                android:layout_marginLeft="@dimen/margin_start"
                 android:text="@string/udacity_city_state_zip"
-                android:textSize="18sp"
-                android:layout_marginStart="100dp" />
+                android:textSize="@dimen/text_size"
+                android:layout_marginStart="@dimen/margin_start" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
-                android:paddingTop="5dp"
-                android:layout_marginLeft="100dp"
+                android:paddingLeft="@dimen/ten_dp_padding"
+                android:paddingTop="@dimen/padding_top_text_view"
+                android:layout_marginLeft="@dimen/margin_start"
                 android:text="@string/udacity_tel_num"
-                android:textSize="18sp"
-                android:layout_marginStart="100dp" />
+                android:textSize="@dimen/text_size"
+                android:layout_marginStart="@dimen/margin_start" />
         </TableLayout>
     </ScrollView>
 </LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_img_height">325dp</dimen>
+    <dimen name="secondary_img_height">75dp</dimen>
+    <dimen name="sec_img_padding">10dp</dimen>
+    <dimen name="second_img_margin">20dp</dimen>
+    <dimen name="second_img_btm_margin">20dp</dimen>
+    <dimen name="btn_width">20dp</dimen>
+    <dimen name="btn_text_size">14sp</dimen>
+    <dimen name="btn_margin_left">60dp</dimen>
+    <dimen name="btn_margin_right">60dp</dimen>
+    <dimen name="ten_dp_padding">10dp</dimen>
+    <dimen name="text_size">18sp</dimen>
+    <dimen name="padding_top_text_view">5dp</dimen>
+    <dimen name="margin_start">100dp</dimen>
+    <dimen name="text_top_margin">30dp</dimen>
+</resources>
