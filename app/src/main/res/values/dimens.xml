@@ -6,7 +6,7 @@
     <dimen name="second_img_margin">20dp</dimen>
     <dimen name="second_img_btm_margin">20dp</dimen>
     <dimen name="btn_width">20dp</dimen>
-    <dimen name="btn_text_size">14sp</dimen>
+    <dimen name="btn_text_size">18sp</dimen>
     <dimen name="btn_margin_left">60dp</dimen>
     <dimen name="btn_margin_right">60dp</dimen>
     <dimen name="ten_dp_padding">10dp</dimen>

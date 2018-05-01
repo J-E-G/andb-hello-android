@@ -36,7 +36,8 @@
                 android:textColor="@color/transparent_white"
                 android:textStyle="bold"
                 android:layout_marginRight="@dimen/btn_margin_right"
-                android:layout_marginLeft="@dimen/btn_margin_left"/>
+                android:layout_marginLeft="@dimen/btn_margin_left"
+                android:onClick="learnMore"/>
 
             <TextView
                 android:layout_width="wrap_content"

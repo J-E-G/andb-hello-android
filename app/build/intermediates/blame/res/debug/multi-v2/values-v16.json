@@ -4,7 +4,7 @@
             "outputFile": "/Users/justingreen/Developer/udacity-android/HelloAndroid/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/justingreen/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/fbfe19c9e158c8326edd20bdbcd5310a/res/values-v16/values-v16.xml",
+                    "source": "/Users/justingreen/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/60d39df48226450ff852f8c3a4bd0fd4/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/justingreen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/8026280143e4a80e7d1514d562537c32/res/values-v16/values-v16.xml",
+                    "source": "/Users/justingreen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/18a9acc1030ae9e76f84375e37f59716/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
